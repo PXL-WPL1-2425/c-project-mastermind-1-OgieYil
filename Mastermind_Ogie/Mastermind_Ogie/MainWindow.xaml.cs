@@ -20,6 +20,7 @@ namespace Mastermind_Ogie
         {
             InitializeComponent();
             GenerateRandomCode();
+            VulComboBoxenMetKleuren();
         }
 
         private void GenerateRandomCode()
@@ -38,6 +39,33 @@ namespace Mastermind_Ogie
 
             // Toon de code in de titel van het venster
             this.Title = "De code is: " + code;
+
+
         }
+
+
+        private readonly string[] kleuren = { "rood", "geel", "oranje", "wit", "groen", "blauw" };
+
+        private void VulComboBoxenMetKleuren()
+        {
+            // Vul alle comboboxen met de kleuren
+            ComboBox1.ItemsSource = kleuren;
+            ComboBox2.ItemsSource = kleuren;
+            ComboBox3.ItemsSource = kleuren;
+            ComboBox4.ItemsSource = kleuren;
+
+            // Optioneel: standaard geselecteerde waarde
+            ComboBox1.SelectedIndex = 0;
+            ComboBox2.SelectedIndex = 0;
+            ComboBox3.SelectedIndex = 0;
+            ComboBox4.SelectedIndex = 0;
+        }
+
+
+
+
+
+
+
     }
 }

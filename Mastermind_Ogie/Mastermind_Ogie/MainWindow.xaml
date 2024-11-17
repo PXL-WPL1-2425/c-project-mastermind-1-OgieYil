@@ -7,14 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox 
+        <ComboBox Name="ComboBox1"
             HorizontalAlignment="Left" Margin="0,160,0,0" VerticalAlignment="Top" Width="203"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="203,160,0,0" VerticalAlignment="Top" Width="200"/>
+        <ComboBox Name="ComboBox2"
+            HorizontalAlignment="Left" Margin="203,160,0,0" VerticalAlignment="Top" Width="200"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="403,160,0,0" VerticalAlignment="Top" Width="199"/>
+        <ComboBox Name="ComboBox3"
+            HorizontalAlignment="Left" Margin="403,160,0,0" VerticalAlignment="Top" Width="199"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="602,160,0,0" VerticalAlignment="Top" Width="198"/>
+        <ComboBox Name="ComboBox4"
+            HorizontalAlignment="Left" Margin="602,160,0,0" VerticalAlignment="Top" Width="198"/>
 
         <Button Name="CheckButton" 
             Content="Check Button" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Width="394"/>
