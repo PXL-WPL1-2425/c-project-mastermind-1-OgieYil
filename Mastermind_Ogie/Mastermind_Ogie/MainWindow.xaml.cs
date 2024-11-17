@@ -20,5 +20,10 @@ namespace Mastermind_Ogie
         {
             InitializeComponent();
         }
+
+        private void CheckButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

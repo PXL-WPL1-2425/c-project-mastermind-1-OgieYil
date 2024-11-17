@@ -8,15 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ComboBox 
-            HorizontalAlignment="Left" Margin="39,160,0,0" VerticalAlignment="Top" Width="182"/>
+            HorizontalAlignment="Left" Margin="0,160,0,0" VerticalAlignment="Top" Width="203"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="221,160,0,0" VerticalAlignment="Top" Width="182"/>
+        <ComboBox HorizontalAlignment="Left" Margin="203,160,0,0" VerticalAlignment="Top" Width="200"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="403,160,0,0" VerticalAlignment="Top" Width="182"/>
+        <ComboBox HorizontalAlignment="Left" Margin="403,160,0,0" VerticalAlignment="Top" Width="199"/>
 
-        <ComboBox HorizontalAlignment="Left" Margin="585,160,0,0" VerticalAlignment="Top" Width="182"/>
+        <ComboBox HorizontalAlignment="Left" Margin="602,160,0,0" VerticalAlignment="Top" Width="198"/>
 
         <Button Name="CheckButton" 
-            Content="Check Button" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Width="394"/>
+            Content="Check Button" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Width="394" Click="CheckButton_Click"/>
     </Grid>
 </Window>
