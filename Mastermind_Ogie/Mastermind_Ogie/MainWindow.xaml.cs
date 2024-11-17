@@ -19,11 +19,25 @@ namespace Mastermind_Ogie
         public MainWindow()
         {
             InitializeComponent();
+            GenerateRandomCode();
         }
 
-        private void CheckButton_Click(object sender, RoutedEventArgs e)
+        private void GenerateRandomCode()
         {
+            // Beschikbare kleuren
+            string[] kleuren = { "rood", "geel", "oranje", "wit", "groen", "blauw" };
 
+            // Willekeurig vier kleuren kiezen
+            Random random = new Random();
+            string[] randomCode = Enumerable.Range(0, 4)
+                                            .Select(x => kleuren[random.Next(kleuren.Length)])
+                                            .ToArray();
+
+            // Code als string samenstellen
+            string code = string.Join(", ", randomCode);
+
+            // Toon de code in de titel van het venster
+            this.Title = "De code is: " + code;
         }
     }
 }

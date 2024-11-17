@@ -17,6 +17,6 @@
         <ComboBox HorizontalAlignment="Left" Margin="602,160,0,0" VerticalAlignment="Top" Width="198"/>
 
         <Button Name="CheckButton" 
-            Content="Check Button" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Width="394" Click="CheckButton_Click"/>
+            Content="Check Button" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Width="394"/>
     </Grid>
 </Window>
